@@ -2,8 +2,14 @@
 
 class Program
 {
+    static bool programRunning = true;
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        while (programRunning)
+        {
+            Console.Write("> ");
+            string? Cmd = Console.ReadLine();
+            Console.WriteLine(Cmd);
+        }
     }
 }
