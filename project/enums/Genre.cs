@@ -1,4 +1,4 @@
-namespace Domain
+namespace Domain;
 
 	// Song genres
 public enum SongGenre
