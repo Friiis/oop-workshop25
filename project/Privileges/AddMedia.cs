@@ -8,5 +8,6 @@ namespace Domain
 {
     internal class AddMedia : IPrivileges
     {
+
     }
 }
