@@ -3,20 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+namespace Presentation;
 
-namespace Presentation
+internal class MainClass
 {
-    internal class MainClass
+    static bool programRunning = true;
+    static void Main(string[] args)
     {
-        static bool programRunning = true;
-        static void Main(string[] args)
+        while (programRunning)
         {
-            while (programRunning)
-            {
-                Console.Write("> ");
-                string? Cmd = Console.ReadLine();
-                Console.WriteLine(Cmd);
-            }
+            Console.Write("> ");
+            string? Cmd = Console.ReadLine();
+            Console.WriteLine(Cmd);
         }
     }
 }
