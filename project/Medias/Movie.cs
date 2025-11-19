@@ -1,6 +1,6 @@
 namespace Domain;
 
-class abstract Movie
+class Movie //abstract
 {
 		
 }

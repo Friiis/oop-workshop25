@@ -1,16 +1,15 @@
-﻿namespace Domain
+﻿namespace Domain;
+
+class System
 {
-    class System
+    static bool programRunning = true;
+    static void Main(string[] args)
     {
-        static bool programRunning = true;
-        static void Main(string[] args)
+        while (programRunning)
         {
-            while (programRunning)
-            {
-                Console.Write("> ");
-                string? Cmd = Console.ReadLine();
-                Console.WriteLine(Cmd);
-            }
+            Console.Write("> ");
+            string? Cmd = Console.ReadLine();
+            Console.WriteLine(Cmd);
         }
     }
 }

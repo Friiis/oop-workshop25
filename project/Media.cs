@@ -1,6 +1,6 @@
 namespace Domain;
 
-	class abstract Media
+	class Media //abstract
 	{
 		
 	}

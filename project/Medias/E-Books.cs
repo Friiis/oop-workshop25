@@ -1,6 +1,6 @@
 namespace Domain;
 
-class abstract E-Books
+class EBooks //abstract
 {
 		
 }

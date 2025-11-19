@@ -1,6 +1,6 @@
 namespace Domain;
 
-class abstract Song
+class Song //abstract
 {
 		
 }

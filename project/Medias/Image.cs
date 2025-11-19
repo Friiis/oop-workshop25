@@ -1,6 +1,6 @@
 namespace Domain;
 
-class abstract Image
+class Image //abstract
 {
 		
 }

@@ -1,6 +1,6 @@
 namespace Domain;
 
-class abstract Podcast
+class Podcast //abstract
 {
 		
 }

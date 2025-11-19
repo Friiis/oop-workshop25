@@ -1,6 +1,6 @@
 namespace Domain;
 
-class abstract App
+class App //abstract
 {
 		
 }
