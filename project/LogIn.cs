@@ -4,10 +4,8 @@ namespace Presentation;
 
     class LogIn
     {
-        //
-
-
-        public User SelectUser(User[] userOptions)
+        
+    public User SelectUser(User[] userOptions)
         {
             Console.WriteLine("Select User type:");
             for (int i = 0; i < userOptions.Length; i++)
