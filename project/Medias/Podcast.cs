@@ -2,5 +2,5 @@ namespace Domain;
 
 class Podcast //abstract
 {
-		public Genre genre;
+		public SongGenre genre;
 }
