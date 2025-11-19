@@ -1,5 +1,6 @@
 namespace Domain
 
+	// Song genres
 public enum SongGenre
 {
 	Pop,
@@ -14,7 +15,8 @@ public enum SongGenre
 	Folk
 }
 
-public enum GameGenre
+// Video game genres
+public enum GameGenre 
 {
 	Action,
 	Adventure,
@@ -22,4 +24,15 @@ public enum GameGenre
 	Simulation,
 	Strategy,
 	Sports
+}
+
+public enum MovieGenre
+{
+	Action,
+	Comedy,
+	Drama,
+	Horror,
+	Romance,
+	SciFi,
+	Documentary
 }
